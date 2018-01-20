@@ -1,0 +1,19 @@
+{
+  "name": "usabbble-full",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Andrew McGillivray <ap.mcgillivray@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev-serve": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.0",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
